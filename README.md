@@ -16,3 +16,8 @@
 ## Project Folder Rules
 - Keep project files organized and clearly named.
 - The project folder structure is set up in Stage 02.
+
+## Data Storage
+- Raw data in data/raw, processed data in data/processed
+- Data saved either as csv or as parquet
+- .env readed using load_dotenv, ignored when pushing to Github, .env.example pushed
